@@ -1,0 +1,5 @@
+let arr = [2,1,5,24,11];               自定义排序
+ let a = arr.sort(function(n1,n2){
+      return n2-n1
+   })    
+    console.log(a)
